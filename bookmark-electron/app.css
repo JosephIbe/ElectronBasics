@@ -1,0 +1,9 @@
+/*.empty {*/
+    /*display: none;*/
+/*}*/
+
+#no-items {
+    padding: 2rem 0;
+    color: lightgray;
+    font-style: italic;
+}

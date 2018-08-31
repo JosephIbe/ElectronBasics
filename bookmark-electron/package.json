@@ -1,0 +1,21 @@
+{
+  "name": "bookmark-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.7",
+    "electron-reload": "^1.2.5"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}

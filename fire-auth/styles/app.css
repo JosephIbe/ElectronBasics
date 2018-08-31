@@ -1,0 +1,11 @@
+body {
+    background-color: cadetblue;
+}
+
+.main-wrapper {
+    margin: 100px;
+}
+
+form input {
+    margin: 15px;
+}

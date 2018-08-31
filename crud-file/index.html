@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Electron CRUD Demo</title>
+    <link rel="stylesheet" href="./node_modules/photonkit/dist/css/photon.css">
+    <link rel="stylesheet" href="./styles/app.css">
+</head>
+
+<body>
+<div class="main-wrapper">
+
+    <h1>Electron CRUD File</h1>
+
+    <form>
+        <div class="form-group">
+            <label>File name</label>
+            <input type="text" class="form-control" id="fileName">
+        </div>
+
+        <div class="form-group">
+            <label>File Body/Contents</label>
+            <textarea name="file-body" id="fileBody" class="form-control"
+                      cols="30" rows="10" placeholder="Enter Some Details"></textarea>
+        </div>
+
+    </form>
+
+    <button class="btn btn-default btn-mini" id="createBtn">Create</button>
+    <button class="btn btn-primary btn-mini" id="readBtn">Read</button>
+    <button class="btn btn-warning btn-mini" id="delBtn">Delete</button>
+
+</div>
+
+<script>
+    require('./index.js');
+    require('toastr');
+</script>
+
+</body>
+
+</html>
